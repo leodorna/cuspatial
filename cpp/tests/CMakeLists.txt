@@ -52,6 +52,10 @@ endfunction(ConfigureTest)
 ConfigureTest(POINT_QUADTREE_TEST
     index/point_quadtree_test.cpp)
 
+# area
+ConfigureTest(AREA_TEST
+    area/area_test.cpp)
+
 # join
 ConfigureTest(JOIN_QUADTREE_AND_BOUNDING_BOXES_TEST
     join/join_quadtree_and_bounding_boxes_test.cpp)
@@ -184,6 +188,10 @@ ConfigureTest(POLYGON_BOUNDING_BOXES_TEST_EXP
 
 ConfigureTest(LINESTRING_BOUNDING_BOXES_TEST_EXP
     bounding_boxes/linestring_bounding_boxes_test.cu)
+
+# area
+ConfigureTest(AREA_TEST_EXP
+    area/area_test.cu)
 
 # distance
 ConfigureTest(HAUSDORFF_TEST_EXP
